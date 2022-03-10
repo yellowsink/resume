@@ -37,6 +37,7 @@ h2 { margin: 0; font-size: 1.5rem; }
   flex-flow: column wrap;
   height: 5rem;
   row-gap: calc(var(--gap) / 2);
+  justify-content: center;
 }
 
 #projects {
