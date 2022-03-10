@@ -25,4 +25,6 @@
     margin-bottom: var(--gap);
     font-style: italic;
   }
+
+  h3 { margin: 0; }
 </style>
