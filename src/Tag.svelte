@@ -1,13 +1,18 @@
-<span><slot/></span>
+<span class="txt"><slot/></span>
+<span class="accent" />
 
 <style>
-  span {
-    margin-right: var(--gap);
+  .txt {
     margin-bottom: var(--gap);
     display: inline-block;
+  }
 
-    background: #dedede;
-    border: #888 solid 1px;
-    border-radius: 5px;
+  .accent {
+    display: inline-block;
+    margin-left: calc(var(--gap) / 2);
+    margin-right: calc(var(--gap) / 2);
+    height: 1rem;
+
+    border-left: solid 1px var(--accent);
   }
 </style>

@@ -3,7 +3,9 @@
 </script>
 
 <a {href} target="_blank">
-  <img src="/svg/{icon}.svg" alt="{icon}">
+  <div>
+    <img src="/svg/{icon}.svg" alt="{icon}">
+  </div>
   {name}
 </a>
 
@@ -17,5 +19,12 @@
     gap: var(--gap);
   }
 
-  img { width: 1.25rem; }
+  div {
+    width: 1.25rem;
+    height: 1.25rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* img { height: 100%; } */
 </style>

@@ -3,12 +3,15 @@
   import Project from "./Project.svelte";
   import IconLink from "./IconLink.svelte";
   import Tag from "./Tag.svelte";
+  import AboutMe from "./AboutMe.svelte";
 
   const links = [
     ["globe", "yellowsink.vercel.app", "https://yellowsink.vercel.app"],
     ["gh", "git.io/ysink", "https://git.io/ysink"],
     ["at", "yellowsink@riseup.net", "mailto:yellowsink@riseup.net"],
-    ["discord", "Yellowsink#8156"]
+    ["discord", "Yellowsink#8156"],
+    ["loc", "United Kingdom"],
+    ["cake", "Aug 2006"]
   ]
 
   const projects = [
@@ -73,9 +76,7 @@
 
 <div id="me">
   <AccentedHeader tag="h2">Me</AccentedHeader>
-  <p>
-    Put things here
-  </p>
+  <AboutMe />
 </div>
 
 <div id="tech">
