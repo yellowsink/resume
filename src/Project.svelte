@@ -8,11 +8,9 @@
   <!-- <AccentedHeader tag="h3">{proj.name}</AccentedHeader> -->
   <h3>{proj.name}</h3>
   <div class="info">{proj.info}</div>
-  <IconLink
-    icon="gh"
-    name={proj.github}
-    href="https://github.com/{proj.github}"
-  />
+  <IconLink icon="gh" href="https://github.com/{proj.github}"
+    >{proj.github}</IconLink
+  >
 </div>
 
 <style>
@@ -26,5 +24,7 @@
     font-style: italic;
   }
 
-  h3 { margin: 0; }
+  h3 {
+    margin: 0;
+  }
 </style>

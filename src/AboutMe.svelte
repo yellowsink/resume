@@ -1,4 +1,7 @@
 <!-- separation of concerns baby -->
+<script>
+  import IconLink from "./IconLink.svelte";
+</script>
 
 <p>
   I am a software developer in my free time, and have ~4 years of programming.
@@ -6,6 +9,8 @@
   which is a good source of experience for JS and React.
 </p>
 <p>
-  I am comfortable on the command line, and like to customise my environment
-  to be as comfortable for me.
+  I am comfortable with the command line, making use of it daily.
+  <IconLink icon="gh" href="https://github.com/yellowsink/dootfiles"
+    >yellowsink/dootfiles</IconLink
+  >
 </p>

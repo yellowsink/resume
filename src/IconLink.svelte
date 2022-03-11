@@ -1,12 +1,12 @@
 <script>
-  export let icon, name, href;
+  export let icon, href;
 </script>
 
 <a {href} target="_blank">
   <div>
     <img src="/svg/{icon}.svg" alt="{icon}">
   </div>
-  {name}
+  <slot />
 </a>
 
 <style>

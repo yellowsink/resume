@@ -58,7 +58,7 @@
 
 <div id="top-links">
   {#each links as link}
-    <IconLink icon={link[0]} name={link[1]} href={link[2]} />
+    <IconLink icon={link[0]} href={link[2]}>{link[1]}</IconLink>
   {/each}
 </div>
 
